@@ -50,6 +50,6 @@ VS Code includes build, test, doctor, snapshot, and desktop debug entries.
 - GitHub Releases and private Graft releases are planned providers. A provider only supplies metadata and bytes; the core enforces the same trust and transaction policy for both.
 - Multitool will not scrape arbitrary repositories, run remote scripts, guess config locations, or silently elevate.
 - Linux support, machine-wide installs, background scheduling, and an optional command-line interface come after the Windows interactive flow is proven.
-- No source licence has been selected. The repository is private on Graft.
+- Multitool is open source under the [MIT License](LICENSE).
 
 See [Architecture](docs/ARCHITECTURE.md) for the implementation sequence and [Manifest](docs/MANIFEST.md) for the contract each managed application needs.
