@@ -1,0 +1,9 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    { "label": "build", "type": "process", "command": "dotnet", "args": ["build", "Multitool.slnx", "-c", "Debug"], "problemMatcher": "$msCompile", "group": { "kind": "build", "isDefault": true } },
+    { "label": "test", "type": "process", "command": "dotnet", "args": ["test", "tests/Multitool.Tests/Multitool.Tests.csproj", "-c", "Debug"], "problemMatcher": "$msCompile", "group": "test" },
+    { "label": "doctor", "type": "process", "command": "dotnet", "args": ["run", "--project", "src/Multitool.Desktop", "-c", "Debug", "--", "--doctor"], "problemMatcher": "$msCompile" },
+    { "label": "snapshot", "type": "process", "command": "dotnet", "args": ["run", "--project", "src/Multitool.Desktop", "-c", "Debug", "--", "--snapshot", "artifacts/multitool.png"], "problemMatcher": "$msCompile" }
+  ]
+}

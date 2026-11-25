@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Multitool.Core/Multitool.Core.csproj" />
+    <Project Path="src/Multitool.App/Multitool.App.csproj" />
+    <Project Path="src/Multitool.Desktop/Multitool.Desktop.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Multitool.Tests/Multitool.Tests.csproj" />
+  </Folder>
+</Solution>
