@@ -1,5 +1,7 @@
 # Multitool
 
+![Multitool banner](docs/assets/multitool-banner.png)
+
 Multitool is the Windows home for Wixely desktop applications. It will discover supported apps, install them, compare installed and available versions, apply updates, and carry configuration forward without making every application invent its own updater.
 
 This foundation contains the CupriFace desktop shell and the update planner. The shell uses a synthetic inventory so its states can be reviewed without touching installed software. Install and update buttons are intentionally locked until an application has a reviewed release manifest, publisher policy, migration adapter, and recovery test.
